@@ -1,0 +1,271 @@
+* {
+    font-size:16px;
+    
+}
+
+a{
+	text-transform:uppercase;
+}
+
+
+.chamada {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:200%;
+    color: white;
+    font-weight: 500;
+    animation-name: HeaderP-moverDireita;
+	animation-duration: 2s;
+	animation-fill-mode: backwords;
+}
+
+.news{
+
+ font-family: 'Comfortaa', cursive;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 30%;
+ color: white;
+ padding: 20px;
+ animation-name: HeaderNews-moverEsquerda;
+ animation-duration: 2s;
+ animation-delay: 0.5s;
+ animation-timing-function: ease-out;
+}
+
+.chamada_01 {
+	
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size:160%;
+  color: #404040;
+  text-align: center;
+  padding: 10px;
+ 
+
+}
+
+.chamada_02 {
+	
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size:100%;
+  color: #404040;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+
+
+.chamada_01:after{
+  display: block;
+  background-color:deepskyblue;
+  height: 5px;
+  width: 30%;
+  margin: 20px auto 10px;
+  content: " ";
+}
+
+.chamada_02:after{
+  display: block;
+  background-color:#00BFFF;
+  height: 5px;
+  width: 30%;
+  margin: 20px auto 10px;
+  content: " ";
+}
+
+
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size:150%;
+  color: #404040;
+  text-align: center;
+  padding: 10px;
+  
+
+}
+
+.destaque {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size:200%;
+  color: #404040;
+  padding: 10px;
+  align-items: center;  
+  text-align: center;
+  text-decoration: bold;
+  
+
+}
+
+.destaque_p {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size:100%;
+  color: #404040;
+  padding: 10px;
+  align-items: center;  
+  text-align: center;
+ 
+  
+
+}
+
+
+.news_institucional{
+
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    color: #444444;
+    padding: 20px;
+}
+
+
+
+
+
+h4 {
+  font-size: 100%;
+  padding:  20px 0;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  color: #404040;
+
+}
+.news {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:180%;
+    color: white;
+
+}
+
+
+p,li,a{
+    font-family: 'Comfortaa', cursive;
+    color: #404040;
+}
+
+p.destaque {
+   font-size:140%;
+   color: #404040;
+   line-height: 1.8;
+   text-align:center;
+   width: 60%;
+   padding: 10px;
+
+}
+
+div.pontos-chaves h4{
+    color: #404040;
+}
+
+
+div.pontos-chaves h4:after{
+    display: block;
+    background-color: deepskyblue;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+
+ h2:after{
+  display: block;
+  background-color:deeppink;
+  height: 5px;
+  width: 30%;
+  margin: 20px auto 10px;
+  content: " ";
+}
+
+header div#chamada h1 {
+
+  color: white;
+}
+
+header div#chamada h4 {
+
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 180%;
+  margin-bottom: 55px;
+}
+
+header div#chamada a {
+   
+   color: white;
+   text-decoration: none;
+   background: rgb(89,83,83);
+   background: linear-gradient(90deg, rgba(7,7,25,1) 100%, rgba(246,246,255,1) 100%);   padding: 20px 80px;
+   border-radius: 50px;
+   font-weight: 600;
+   text-transform: uppercase;  
+   opacity: 0.8;
+
+}
+
+header div#chamada a:hover {
+   
+  background: rgb(44,44,59);
+  background: linear-gradient(90deg, rgba(44,44,59,1) 100%, rgba(134,134,173,1) 100%);
+
+}
+
+section#plano-principal h4 {
+	 font-family: 'Comfortaa', cursive;
+	 color: #444444;
+	 font-size: 25px;
+}
+
+section#plano-principal h4:after {
+	display: block;
+    background-color: deepskyblue;
+    height: 5px;
+    width: 30%;
+    margin: 10px auto 10px;
+    content: " ";
+}
+
+
+section#plano-principal ul{
+	margin-top: 10px;
+	
+}
+section#plano-principal ul li {
+	font-size: 90%;
+	text-align: left;
+	margin-left: 45px;
+	line-height: 2;
+	text-decoration: none;
+	list-style-type: "  🟊  ";
+	
+}
+
+section#plano-principal div.planos-bottom p {
+	color: #444444;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 35px;
+}
+
+
+
+section#plano-principal h5 {
+	 font-family: 'Comfortaa', cursive;
+	 color: #444444;
+	 font-size: 25px;
+	 text-transform: uppercase;
+	 
+}
+
