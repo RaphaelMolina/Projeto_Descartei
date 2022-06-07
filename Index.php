@@ -55,7 +55,7 @@
         <header>
 		 <!-- Menu Desktop --> 
             <nav>
-                <div id="logo"></div>
+                <div id="logo" title="Logo do site (Um homem com uma prancha surfando)."></div>
                 <ul id="esquerda">
                     <li><a href="#chamada" class = "scroll"> Home</a></li>
                     <li><a href="#institucional-centro" class = "scroll" >Sobre</a></li>
@@ -67,7 +67,7 @@
                 
             </nav>
 
-            <div id="chamada">
+            <div id="chamada" title="Uma foto da vista aérea de uma praia.">
                 <p class="chamada">Projeto Descartei</p>
                 <p class="news">Descarte consciente de pilhas e baterias - São Sebastião..</p>
             
@@ -86,15 +86,15 @@
                   
                 </p>
                 <div id="pontos-chaves-mestre">
-                    <div class="pontos-chaves">
+                    <div class="pontos-chaves" title="Imagem de uma lâmpada.">
                        <ion-icon name="bulb-outline"></ion-icon>
                         <p class ="chamada_02">Consciêntização</h4>
                     </div>
-                    <div class="pontos-chaves">
+                    <div class="pontos-chaves" title="Imagem de um cesto de lixo.">
                        <ion-icon name="trash-bin-outline"></ion-icon>
                         <p class ="chamada_02">Reciclagem</p>
                     </div>
-                    <div class="pontos-chaves">
+                    <div class="pontos-chaves" title="Imagem de um símbolo de retorno.">
                      <ion-icon name="reload-outline"></ion-icon>
                         <p class ="chamada_02">Sustentabilidade</p>
                        
@@ -147,7 +147,7 @@
                
             </p>
 		</section>
-		<section id="testemunha">
+		<section id="testemunha" title="Mapa para localizar os endereços dos postos de coleta.">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.404949260915!2d-45.407188685349745!3d-23.804195076489012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d29a5af5434743%3A0xc030791939f871b7!2zU8OjbyBTZWJhc3Rpw6NvIC0gU1A!5e0!3m2!1spt-BR!2sbr!4v1652750770665!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</section>
 		<footer>     
