@@ -60,7 +60,7 @@
                     <li><a href="#chamada" class = "scroll"> Home</a></li>
                     <li><a href="#institucional-centro" class = "scroll" >Sobre</a></li>
                     <li><a href="#testemunha" class = "scroll" >Busca</a></li>
-					<!--<li><a href="Cadastro.php">Cadastro</a></li>-->
+					<!--<li><a href="cadastro.php">Cadastro</a></li>-->
                   
                 </ul>
 
@@ -114,7 +114,7 @@
                 Encontre seu local de descarte
             </p>
 			
-			<form method="POST" action="Index.php">
+			<form method="POST" action="index.php">
         <section id="testemunha"  >
 			 
 				   	<input  type="text" id="input-search-mobile" name="pesquisar" class="barra_pesquisa" placeholder=" ">
